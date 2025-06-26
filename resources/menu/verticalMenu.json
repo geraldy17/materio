@@ -1,0 +1,80 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "dashboard",
+      "badge": [
+        "danger",
+        ""
+      ],
+      "submenu": [
+        {
+          "url": "/Departemen",
+          "name": "Departemen ",
+          "slug": "Departemen"
+        },
+        {
+          "url": "/",
+          "name": "Schedule",
+          "slug": "app-ecommerce-dashboard",
+          "target": "",
+          "badge": [
+            "label-primary fs-tiny",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Departemen",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "Departemen",
+      "url": "/Departemen"
+    },
+    {
+      "menuHeader": "Components"
+    },
+    {
+      "url": "/MenuAgenda",
+      "name": "Menu Agenda",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "menuagenda.index",
+      "badge": [
+        "label-primary fs-tiny",
+        ""
+      ]
+    },
+    {
+      "name": "Status",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "status.index",
+      "url": "/status"
+    },
+    {
+      "name": "Pegawai",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "pegawai.index",
+      "url": "/pegawai"
+    },
+    {
+      "name": "kategori",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "ketegori.index",
+      "url": "/kategori"
+    },
+    {
+      "name": "User",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "user.index",
+      "url": "/manage-user"
+    },
+    {
+      "name": "Schedule",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "schedule.index",
+      "url": "/schedule"
+    }
+  ]
+}
